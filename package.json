@@ -1,0 +1,16 @@
+{
+  "name": "glyphic-scraper",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "api-server.mjs",
+  "scripts": {
+    "start": "node api-server.mjs",
+    "dev": "node --watch api-server.mjs"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "cors": "^2.8.5",
+    "cheerio": "^1.0.0",
+    "puppeteer": "^24.4.0"
+  }
+}
